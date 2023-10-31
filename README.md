@@ -1,6 +1,6 @@
 # CSCI596-Project
 
-**Team members:** Samuel Wang, Shengyi Liu, Zitong Li, Mengyan Zhang, Guodong Sun, Rachel Hong  
+**Team members:** Samuel Wang, Shengyi Liu, Zitong Li, Mengyan Zhang, Guodong Sun, Rachel Huang 
 **Set-up:** Oct. 10, 2023
 
 👉🏽 For this project, we will be using: 
