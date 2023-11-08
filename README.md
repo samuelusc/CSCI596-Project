@@ -1,6 +1,6 @@
 # CSCI596-Project
 
-**Team members:** Jialiang Wang, shengyi Liu, Zitong Li, Mengyan Zhang, Guodong Sun, Xinru Hong  
+**Team members:** Jialiang Wang, shengyi Liu, Zitong Li, Zoey Zhang, Guodong Sun, Xinru Hong  
 **Set-up:** Oct. 10, 2023
 
 👉🏽 For this project, we will be using: 
