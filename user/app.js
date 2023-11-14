@@ -18,7 +18,7 @@ app.post(
         if(!email || !password) return res.json(
             {error: "email/password missing"})
         next();
-    },
+    }, 
     (req, res) => {
         res.send("<h1>Hello I am about page </h1>");
     }
