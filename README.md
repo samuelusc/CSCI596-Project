@@ -40,7 +40,7 @@ We aim for our recommendation system to address the following two key issues:<br
 2. How to effectively increase the engagement of our existing users.
 
 ### Four Core Strategies
-**Relevance**: 
+'Relevance': 
 Offer movie recommendations as closely aligned as possible with user preferences and needs.
 
 **Novelty**: 
