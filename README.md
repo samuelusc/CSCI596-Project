@@ -14,7 +14,7 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 - **Frontend**: HTML/CSS/Javascript, React <br>
 - **Backend**: Python,Node.js with Express.js, JAVA <br>
 - **Database**:MongoDB, JSON Format <br>
-- **Machine Learning**: Python(Scikit-learn, scikit-learn), DeepFM <br>
+- **Machine Learning**: Python(Scikit-learn), DeepFM <br>
 - **Distributed Computing Frame**:  Apache Spark <br>
   
 ## Contributing and Team Member
@@ -98,6 +98,12 @@ Used for text matching and similarity calculations.
 
 **`Pandas`**: 
 For data handling and analysis.
+
+8. Movie Search:
+An interactive interface for user to search for a movie. The fuzzy search is supported.
+
+9. Movie Recommendation:
+Showing user the recommended movies based on the search results. The recommended movies are generated based on pre-collected movie review data.
 
 
 ## Backend
