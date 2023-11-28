@@ -51,7 +51,7 @@ Ensure that our recommendations exceed user expectations, creating a sense of su
 
 `Diversity`: 
 Provide a diverse range of recommended genres to cater to the varied tastes and requirements of our users.
-<img width="725" alt="four-strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/four-strategies.png">
+![four strategies](../recommending system/assets/four_strategies.png)
 
 ## Backend
 
