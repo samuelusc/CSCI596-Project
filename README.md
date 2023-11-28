@@ -103,7 +103,10 @@ For data handling and analysis.
 <br>
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/system%20recommendation-drawio.png">
 
+### The matrix factorization illustration:
 
+(Matrix image sourced from Buomsoo-kim)
+<img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/matrix-Buomsoo%20Kim.jpg">
 ## Backend
 
 Features:
