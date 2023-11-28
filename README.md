@@ -58,22 +58,22 @@ Provide a diverse range of recommended genres to cater to the varied tastes and 
 **`Personalized Recommendations`**: 
 Utilizing machine learning algorithms, we provide individualized suggestions based on a user's search history, viewing history, and rating data.
 
-`New User Questionnaire`: 
+**`New User Questionnaire`**: 
 New users are asked to complete a brief interest survey or rate movies during registration, which will allow us to quickly understand their preferences.
 
-`Interactive Interface`: 
+**`Interactive Interface`**: 
 An intuitive and user-friendly interface is designed to make it easier for users to discover and explore new movies.
 
-`Intelligent Sorting`: 
+**`Intelligent Sorting`**: 
 Movies are sorted to prominently display those that are likely to align with a user's tastes.
 
-`Editor's Picks`: 
+**`Editor's Picks`**: 
 We showcase a list of movies recommended by editors or based on popular trends.
  
-`Tagging System`: 
+**`Tagging System`**: 
 Movies are categorized using tags such as genre, mood, director, or actors, enabling users to swiftly filter according to their interests.
  
-`User Reviews`: 
+**`User Reviews`**: 
 Displaying other users' ratings and reviews helps new users discover popular movies.
 
 
