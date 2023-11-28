@@ -3,7 +3,7 @@
 <br>
 ## Introduction
 The primary goal is to develop a robust Movie Recommendation System that provides users with personalized movie recommendation based on their previous movie rating and movie reference. The system will consist of a user-friendly frontend for interaction and a powerful backend for processing and generating recommendations.
-<br>
+
 ## Dataset:
 [MovieLens 20M Dataset](https://msnews.github.io/): <br>
 The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
