@@ -85,7 +85,7 @@ A python scikit we used to build and analyze recommender systems. It provides so
 It’s a powerful matrix factorization technique used for collaborative filtering. This algorithm identifies latent features by decomposing the user-item rating matrix.
 
 **`Similarity Calculation`**: 
-Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. 
+Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. The movies are represented as vectors of pre-collected user review ratings. For each movie the correlation coefficients of the rating vector with vectors of other movies are collected and sorted. The recommneded movies are selected per largest correlation coefficients.
 
 **`DeepFM`** : 
 DNN (Deep Neural Networks) is a nonlinear model capable of capturing more complex relationships. FM (Factorization Machines) is a linear model that models implicit relationships between users and items through feature crossing. 
