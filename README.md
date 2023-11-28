@@ -12,6 +12,7 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 
 ## Language and tools Used:
 **Frontend**: 
+**Frontend**
 - HTML/CSS/Javascript
 - React 
 **Backend**: 
