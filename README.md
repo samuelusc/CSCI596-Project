@@ -10,6 +10,22 @@ The MovieLens Dataset is a collection of movie ratings provided by the GroupLens
 [Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
+## Language and tools Used: <br>
+### Frontend: <br>
+- HTML/CSS/Javascript
+- React
+### Backend: <br>
+- Python
+- Node.js with Express.js
+- JAVA
+### Database:<br>
+- MongoDB
+- JSON Format
+### Machine Learning and Distributed computing: <br>
+- Python(Scikit-learn, scikit-learn)
+- DeepFM
+- Apache Spark
+- 
 ## Contributing and Team Member
 **Frontend:** Shenyi Liu <br>
 **Backend:** Rachel Huang <br>
