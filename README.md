@@ -40,16 +40,16 @@ Our recommendation module primarily aims to solve two main problems:<br>
 2. How to effectively increase the engagement of our existing users.
 
 ### Four Core Strategies
-`Relevance`: 
+**`Relevance`**: 
 Offer movie recommendations as closely aligned as possible with user preferences and needs.
 
-`Novelty`: 
+**`Novelty`**: 
 Suggest films that users might not have encountered but are likely to find intriguing.
 
-`Serendipity`: 
+**`Serendipity`**: 
 Ensure that our recommendations exceed user expectations, creating a sense of surprise and delight.
 
-`Diversity`: 
+**`Diversity`**: 
 Provide a diverse range of recommended genres to cater to the varied tastes and requirements of our users.
 
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/four_strategies.png">
