@@ -28,12 +28,12 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
 
 ## Table of Four modules
-- [Recommendation System Module](#Recommender Module)
+- [Recommendation System Module](#Recommender)
 - [Frontend Module](#Frontend)
 - [backend Module](#Backend)
-- [Dataset Module](#Dataset)
+- [Dataset Module](#Database)
 
-## Recommender Module
+## Recommender
 ### Design Objects
 We aim for our recommendation system to address the following two key issues:<br>
 1. How to enable new users to quickly discover movies they'll love.
