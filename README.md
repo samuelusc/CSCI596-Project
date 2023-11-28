@@ -77,7 +77,7 @@ Movies are categorized using tags such as genre, mood, director, or actors, enab
 Displaying other users' ratings and reviews helps new users discover popular movies.
 
 
-### Possible Tech Stack
+### Possible Tech Stacks
 `Scikit-surprise or scikit-learn`: 
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
  
