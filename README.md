@@ -24,6 +24,7 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 ### Machine Learning: <br>
 - Python(Scikit-learn, scikit-learn)
 - DeepFM
+## Distributed Computing Frame  
 - Apache Spark
   
 ## Contributing and Team Member
@@ -36,7 +37,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Final project description](https://github.com/samuelusc/CSCI596-Project/blob/main/Final.pdf)
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
 
-# Table of Four modules
+## Table of Four modules
 - [Recommendation System Module](#Recommender)
 - [Frontend Module](#Frontend)
 - [backend Module](#Backend)
