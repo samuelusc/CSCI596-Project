@@ -55,25 +55,25 @@ Provide a diverse range of recommended genres to cater to the varied tastes and 
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/four_strategies.png">
 
 ### Measures and Features 
-1. `Personalized Recommendations`: 
+`Personalized Recommendations`: 
 Utilizing machine learning algorithms, we provide individualized suggestions based on a user's search history, viewing history, and rating data.
 
-2. `Intelligent Sorting`: 
+`Intelligent Sorting`: 
 Movies are sorted to prominently display those that are likely to align with a user's tastes.
  
-3. `New User Questionnaire`: 
+`New User Questionnaire`: 
 New users are asked to complete a brief interest survey or rate movies during registration, which will allow us to quickly understand their preferences.
  
-4. `Editor's Picks`: 
+`Editor's Picks`: 
 We showcase a list of movies recommended by editors or based on popular trends.
  
-5. `Tagging System`: 
+`Tagging System`: 
 Movies are categorized using tags such as genre, mood, director, or actors, enabling users to swiftly filter according to their interests.
  
-6. `User Reviews`: 
+`User Reviews`: 
 Displaying other users' ratings and reviews helps new users discover popular movies.
 
-7. `Interactive Interface`: 
+`Interactive Interface`: 
 An intuitive and user-friendly interface is designed to make it easier for users to discover and explore new movies.
 
 
