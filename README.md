@@ -13,19 +13,19 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 ## Language and tools Used: <br>
 **Frontend**: <br>
 - HTML/CSS/Javascript
-- React
-**Backend**: <br>
+- React <br>
+**Backend**: 
 - Python
 - Node.js with Express.js
-- JAVA
+- JAVA <br>
 **Database**:<br>
 - MongoDB
-- JSON Format
+- JSON Format <br>
 **Machine Learning**: <br>
 - Python(Scikit-learn, scikit-learn)
-- DeepFM
+- DeepFM <br>
 **Distributed Computing Frame**:  
-- Apache Spark
+- Apache Spark <br>
   
 ## Contributing and Team Member
 Frontend: Shenyi Liu <br>
