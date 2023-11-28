@@ -8,7 +8,7 @@
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
 
 
-**Recommendation System:
-**Fronted:
-**Database:
-**Backend:
+Recommendation System: <br>
+Fronted:<br>
+Database:<br>
+Backend:<br>
