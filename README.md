@@ -78,7 +78,7 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 
 
 ### Possible Tech Stacks
-`Scikit-surprise or scikit-learn`: 
+**Scikit-surprise or scikit-learn**: 
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
  
 `SVD (Singular Value Decomposition / matrix factorization )`: 
