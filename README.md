@@ -1,11 +1,12 @@
-# Movie Recommendation System: Web App with Advanced Computing Method
+# Movie Recommendation System: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;# Web App with Advanced Computing Method
 ## Introduction
 The primary goal is to develop a robust Movie Recommendation System that provides users with personalized movie recommendation based on their previous movie rating and movie reference. The system will consist of a user-friendly frontend for interaction and a powerful backend for processing and generating recommendations.
 
 ## Dataset:
-[MovieLens 20M Dataset](https://msnews.github.io/): 
-The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.
-[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): 
+[MovieLens 20M Dataset](https://msnews.github.io/): <br>
+The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
+[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
 
