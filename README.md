@@ -1,5 +1,5 @@
 # Movie Recommendation System: <br>
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web App with Advanced Computing Method
+###                           -- Web App with Advanced Computing Method
 ## Introduction
 The primary goal is to develop a robust Movie Recommendation System that provides users with personalized movie recommendation based on their previous movie rating and movie reference. The system will consist of a user-friendly frontend for interaction and a powerful backend for processing and generating recommendations.
 
