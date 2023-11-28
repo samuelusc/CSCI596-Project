@@ -50,8 +50,9 @@ Suggest films that users might not have encountered but are likely to find intri
 Ensure that our recommendations exceed user expectations, creating a sense of surprise and delight.
 
 `Diversity`: 
-Provide a diverse range of recommended genres to cater to the varied tastes and requirements of our users.
-![four strategies](../recommending system/assets/four_strategies.png)
+Provide a diverse range of recommended genres to cater to the varied tastes and requirements of our users.<br>
+<img width="725" alt="Four strategies" src="../recommending system/assets/four_strategies.png">
+
 
 ## Backend
 
