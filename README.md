@@ -13,8 +13,8 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 ## Contributing and Team Member
 **Frontend:** Shenyi Liu <br>
 **Backend:** Rachel Huang <br>
+**Dataset and web crawler:** Guodong Sun, Zitong Li <br>
 **Recommendation System:** Samuel Wang, Zoey Zhang <br>
-**Dataset and crawler:** Guodong Sun, Zitong Li <br>
 
 **Set-up:** Oct. 10, 2023
 Shengyi Liu, Zitong Li, Zoey Zhang, Guodong Sun, Rachel Huang 
