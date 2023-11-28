@@ -14,15 +14,15 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 
 **Frontend**
 - HTML/CSS/Javascript
-- React 
+- React <br>
 **Backend**: 
 - Python
 - Node.js with Express.js
 - JAVA <br>
-**Database**:<br>
+**Database**:
 - MongoDB
 - JSON Format <br>
-**Machine Learning**: <br>
+**Machine Learning**: 
 - Python(Scikit-learn, scikit-learn)
 - DeepFM <br>
 **Distributed Computing Frame**:  
