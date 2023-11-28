@@ -105,8 +105,16 @@ For data handling and analysis.
 
 ### The matrix factorization illustration:
 
-(Matrix image sourced from Buomsoo-kim)
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/matrix-Buomsoo%20Kim.jpg">
+(Matrix image sourced from Buomsoo-kim)
+
+A movie matrix is assembled based on collected data. Each column of the matrix represents the review pattern of all reviewers of a certain movie. For each column, the correlation coefficients are calculated with all other columns and the columns with highest coefficients are recorded and the movies represented by these columns shall be taken as recommended movie.
+
+<img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/formular-picture.png">
+`User Matrix`： X =[x1, x2, x3…, xn]
+`Item matrix`： Y = [y1, y2, y3…, ym]
+
+
 ## Backend
 
 Features:
