@@ -78,25 +78,25 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 
 
 ### Possible Tech Stacks
-**Scikit-surprise or scikit-learn**: 
+**`Scikit-surprise or scikit-learn`**: 
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
  
-**SVD (Singular Value Decomposition / matrix factorization )**: 
+**`SVD (Singular Value Decomposition / matrix factorization )`**: 
 It’s a powerful matrix factorization technique used for collaborative filtering. This algorithm identifies latent features by decomposing the user-item rating matrix.
 
-**Similarity Calculation**: 
+**`Similarity Calculation`**: 
 Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. 
 
-**DeepFM** : 
+**`DeepFM`** : 
 DNN (Deep Neural Networks) is a nonlinear model capable of capturing more complex relationships. FM (Factorization Machines) is a linear model that models implicit relationships between users and items through feature crossing. 
  
-**Apache Spark**: 
+**`Apache Spark`**: 
 For data processing and model training, Apache Spark can efficiently handle large datasets with its distributed computing capabilities, and using Spark's machine learning library (MLib) to build and train recommendation models.
  
-**Fuzzywuzzy**: 
+**`Fuzzywuzzy`**: 
 Used for text matching and similarity calculations.
 
-**Pandas**: 
+**`Pandas`**: 
 For data handling and analysis.
 
 
