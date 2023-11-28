@@ -99,13 +99,6 @@ Used for text matching and similarity calculations.
 **`Pandas`**: 
 For data handling and analysis.
 
-8. Movie Search:
-An interactive interface for user to search for a movie. The fuzzy search is supported.
-
-9. Movie Recommendation:
-Showing user the recommended movies based on the search results. The recommended movies are generated based on pre-collected movie review data.
-
-
 ## Backend
 
 Features:
