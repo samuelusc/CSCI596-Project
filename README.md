@@ -36,10 +36,12 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Final project description](https://github.com/samuelusc/CSCI596-Project/blob/main/Final.pdf)
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
 
+# Table of Four modules
+- [Recommendation System Module](#Recommender)
+- [Frontend Module](#Frontend)
+- [backend Module](#Backend)
+- [Dataset Module](#Dataset)
 
-Recommendation System: <br>
-Fronted:<br>
-Database:<br>
 
 **Backend**
 
