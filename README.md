@@ -21,7 +21,7 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 ### Database:<br>
 - MongoDB
 - JSON Format
-### Machine Learning and Distributed computing: <br>
+### Machine Learning: <br>
 - Python(Scikit-learn, scikit-learn)
 - DeepFM
 - Apache Spark
