@@ -40,16 +40,16 @@ We aim for our recommendation system to address the following two key issues:<br
 2. How to effectively increase the engagement of our existing users.
 
 ### Four Core Strategies
-'Relevance': 
+`Relevance`: 
 Offer movie recommendations as closely aligned as possible with user preferences and needs.
 
-**Novelty**: 
+`Novelty`: 
 Suggest films that users might not have encountered but are likely to find intriguing.
 
-**Serendipity**: 
+`Serendipity`: 
 Ensure that our recommendations exceed user expectations, creating a sense of surprise and delight.
 
-**Diversity**: 
+`Diversity`: 
 Provide a diverse range of recommended genres to cater to the varied tastes and requirements of our users.
 
 
