@@ -120,6 +120,14 @@ The interactive interfaces are used for user to input any movies for recommendat
 
 <img width="725" alt="Relevance Recommendation" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/result-matrix.png">
 
+### Evaluation metrics:
+
+- **`MSE`**:  The average squared difference between the predicted and actual values.
+- **`RMSE`**: Taking the square root of the mean squared error (MSE).
+- **`Precision`** :  True Positive / (True Positive + False Positive)
+- **`Recall`**: True Positive / (True Positive + False Negative)
+
+
 ## Backend
 
 Features:
