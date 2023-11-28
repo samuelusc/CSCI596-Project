@@ -111,8 +111,9 @@ For data handling and analysis.
 A movie matrix is assembled based on collected data. Each column of the matrix represents the review pattern of all reviewers of a certain movie. For each column, the correlation coefficients are calculated with all other columns and the columns with highest coefficients are recorded and the movies represented by these columns shall be taken as recommended movie.
 
 <img width="725" alt="matrix formular" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/formular-picture.png">
-`User Matrix`： X = (x1, x2, x3…, xn)
-`Item matrix`： Y = (y1, y2, y3…, ym)
+
+- User Matrix： X = (x1, x2, x3…, xn)
+- Item matrix： Y = (y1, y2, y3…, ym)
 
 **`Output Test`**
 The interactive interfaces are used for user to input any movies for recommendation. The fuzzywuzzy module is used to map user input to one of the movies in MovieMat, and then the interactive interface shows the recommended movies. A sample input/output result is shown as below.
