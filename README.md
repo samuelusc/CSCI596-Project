@@ -35,7 +35,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 
 ## Recommender
 ### Design Objects
-We aim for our recommendation system to address the following two key issues:<br>
+Our recommendation module primarily aims to solve two main problems:<br>
 1. How to enable new users to quickly discover movies they'll love.
 2. How to effectively increase the engagement of our existing users.
 
