@@ -55,7 +55,7 @@ Provide a diverse range of recommended genres to cater to the varied tastes and 
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/four_strategies.png">
 
 ### Measures and Features 
-`Personalized Recommendations`: 
+**`Personalized Recommendations`**: 
 Utilizing machine learning algorithms, we provide individualized suggestions based on a user's search history, viewing history, and rating data.
 
 `New User Questionnaire`: 
