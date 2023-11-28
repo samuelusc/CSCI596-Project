@@ -11,9 +11,9 @@ The MovieLens Dataset is a collection of movie ratings provided by the GroupLens
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
 ## Contributing and Team Member
-**Recommendation System:** Samuel Wang, Zoey Zhang <br>
 **Frontend:** Shenyi Liu <br>
 **Backend:** Rachel Huang <br>
+**Recommendation System:** Samuel Wang, Zoey Zhang <br>
 **Dataset and crawler:** Guodong Sun, Zitong Li <br>
 
 **Set-up:** Oct. 10, 2023
