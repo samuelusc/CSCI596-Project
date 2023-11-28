@@ -11,7 +11,7 @@ The MovieLens Dataset is a collection of movie ratings provided by the GroupLens
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
 ## Language and tools Used:
-- **Frontend**: HTML/CSS/Javascript, React <br>
+- **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS <br>
 - **Backend**: Python,Node.js with Express.js, JAVA <br>
 - **Database**:MongoDB, JSON Format <br>
 - **Machine Learning**: Python(Scikit-learn), DeepFM <br>
@@ -126,6 +126,23 @@ The interactive interfaces are used for user to input any movies for recommendat
 - **`RMSE`**: Taking the square root of the mean squared error (MSE).
 - **`Precision`** :  True Positive / (True Positive + False Positive)
 - **`Recall`**: True Positive / (True Positive + False Negative)
+
+## Frontend
+
+Description: 
+The frontend mainly includes the following pages:
+- User Sign In/Sign Up/Forget Password
+- Home page displaying top rated movies, recommended movies and providing searching functionality
+- Single movie page displaying the basic information of the movie, review(0-5 stars) and related movies
+
+Tech Stacks:
+- React.js 
+- Tailwind CSS
+
+Preview:
+![image9](https://github.com/samuelusc/CSCI596-Project/assets/142550022/6b3801b3-61c8-4b7b-ac9f-487c04d5895b)
+![image2](https://github.com/samuelusc/CSCI596-Project/assets/142550022/dc70d4db-293c-4a15-8771-3e45c1bcd55a)
+![image6](https://github.com/samuelusc/CSCI596-Project/assets/142550022/d07cc236-f218-4aad-8ef6-cc276dc2330e)
 
 
 ## Backend
