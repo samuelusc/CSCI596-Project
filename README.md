@@ -25,15 +25,13 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 - Python(Scikit-learn, scikit-learn)
 - DeepFM
 - Apache Spark
-- 
+  
 ## Contributing and Team Member
-**Frontend:** Shenyi Liu <br>
-**Backend:** Rachel Huang <br>
-**Dataset and web crawler:** Guodong Sun, Zitong Li <br>
-**Recommendation System:** Samuel Wang, Zoey Zhang <br>
+Frontend: Shenyi Liu <br>
+Backend: Rachel Huang <br>
+Dataset and web crawler: Guodong Sun, Zitong Li <br>
+Recommendation System: Samuel Wang, Zoey Zhang <br>
 
-**Set-up:** Oct. 10, 2023
-Shengyi Liu, Zitong Li, Zoey Zhang, Guodong Sun, Rachel Huang 
 👉🏽 For this project, we will be using: 
 - [Final project description](https://github.com/samuelusc/CSCI596-Project/blob/main/Final.pdf)
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
