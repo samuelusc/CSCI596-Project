@@ -107,7 +107,7 @@ For data handling and analysis.
 
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/matrix-Buomsoo%20Kim.jpg">
 (Matrix image sourced from Buomsoo-kim)
-
+<br>
 A movie matrix is assembled based on collected data. Each column of the matrix represents the review pattern of all reviewers of a certain movie. For each column, the correlation coefficients are calculated with all other columns and the columns with highest coefficients are recorded and the movies represented by these columns shall be taken as recommended movie.
 
 <img width="725" alt="Four strategies" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/formular-picture.png">
