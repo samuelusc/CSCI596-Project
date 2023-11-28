@@ -28,7 +28,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
 
 ## Table of Four modules
-- [Recommendation Module](#Recommender)
+- [Recommender Module](#Recommender)
 - [Frontend Module](#Frontend)
 - [backend Module](#Backend)
 - [Dataset Module](#Database)
