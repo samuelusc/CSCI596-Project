@@ -8,25 +8,25 @@ The primary goal is to develop a robust Movie Recommendation System that provide
 
 ## Dataset:
 
-[MovieLens 20M Dataset](https://msnews.github.io/): `<br>`
-The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.`<br>`
-[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): `<br>`
+[MovieLens 20M Dataset](https://msnews.github.io/): <br>
+The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
+[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
 ## Language and tools Used:
 
-- **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS `<br>`
-- **Backend**: Python,Node.js with Express.js, JAVA `<br>`
-- **Database**:MongoDB, JSON Format `<br>`
-- **Machine Learning**: Python(Scikit-learn, scikit-learn), DeepFM `<br>`
-- **Distributed Computing Frame**:  Apache Spark `<br>`
+- **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS <br>
+- **Backend**: Python,Node.js with Express.js, JAVA <br>
+- **Database**:MongoDB, JSON Format <br>
+- **Machine Learning**: Python(Scikit-learn, scikit-learn), DeepFM <br>
+- **Distributed Computing Frame**:  Apache Spark <br>
 
 ## Contributing and Team Member
 
-Frontend: Shenyi Liu `<br>`
-Backend: Rachel Huang `<br>`
-Dataset and web crawler: Guodong Sun, Zitong Li `<br>`
-Recommendation System: Samuel Wang, Zoey Zhang `<br>`
+Frontend: Shenyi Liu <br>
+Backend: Rachel Huang <br>
+Dataset and web crawler: Guodong Sun, Zitong Li <br>
+Recommendation System: Samuel Wang, Zoey Zhang <br>
 
 👉🏽 For this project, we will be using:
 
@@ -44,7 +44,7 @@ Recommendation System: Samuel Wang, Zoey Zhang `<br>`
 
 ### Design Objects
 
-Our recommendation module primarily aims to solve two main problems:`<br>`
+Our recommendation module primarily aims to solve two main problems:<br>
 
 1. How to enable new users to quickly discover movies they'll love.
 2. How to effectively increase the engagement of our existing users.
@@ -145,7 +145,7 @@ The interactive interfaces are used for user to input any movies for recommendat
 - **`MSE`**:  The average squared difference between the predicted and actual values.
 - **`RMSE`**: Taking the square root of the mean squared error (MSE).
 - **`Precision`** :  True Positive / (True Positive + False Positive)
-- **`Recall`**: True Positive / (True Positive + False Negative) `<br>`
+- **`Recall`**: True Positive / (True Positive + False Negative) <br>
 
 **Expected value**: Our goal is to achieve an RMSE value between `0.5 to 0.85`, aiming to surpass industry benchmarks. Notably, the best-performing algorithm in the Netflix Prize challenge achieved an RMSE of approximately `0.85`.
 
