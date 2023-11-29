@@ -117,8 +117,8 @@ A movie matrix is assembled based on collected data. Each column of the matrix r
 
 **`Expected Outcomes`**:
 - **Personalized** Picks: Suggesting 5 movies tailored to individual user preferences.
-- **Related Discoveries**: Presenting 5 related movies based on user input, using advanced filtering methods.
-- **Trending Now**: Showcasing the top 5 trending movies to keep users engaged with popular content.
+- **Related Discoveries**: Presenting 4 related movies based on user input, using advanced filtering methods.
+- **Trending Now**: Showcasing the top 3 trending movies to keep users engaged with popular content.
 
 
 **`Part of Output Test`**
