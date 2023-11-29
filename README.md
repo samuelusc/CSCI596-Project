@@ -35,7 +35,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 
 ## Product develpment feature map
 <br>
-<img width="725" alt="Product Development Feature Map" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/web-productFeatures.png">
+<img width="725" alt="Product Development Feature Map" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/Web-Features.png">
 
 ## Table of Four modules
 
