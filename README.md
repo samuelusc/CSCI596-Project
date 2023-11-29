@@ -42,7 +42,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Recommender Module](#Recommender)
 - [Frontend Module](#Frontend)
 - [backend Module](#Backend)
-- [Dataset Module](#Database)
+- [Databese Module](#Databases)
 
 ## Recommender
 
@@ -201,7 +201,7 @@ Testing with Postman—Verify Email:
 
 <img width="638" alt="Screenshot 2023-11-23 at 5 20 26 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/762c6774-31d8-4cec-a55d-645ba8831f9d">
 
-## Databases and Movie Detail API
+## Databases
 
 ### Database used
 
