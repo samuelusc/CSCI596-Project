@@ -131,7 +131,8 @@ The interactive interfaces are used for user to input any movies for recommendat
 - **`MSE`**:  The average squared difference between the predicted and actual values.
 - **`RMSE`**: Taking the square root of the mean squared error (MSE).
 - **`Precision`** :  True Positive / (True Positive + False Positive)
-- **`Recall`**: True Positive / (True Positive + False Negative)
+- **`Recall`**: True Positive / (True Positive + False Negative) <br>
+
 **Expected value**: We aim for an RMSE value between 0.5 to 0.9, aligning with industry benchmarks. Notably, the best-performing algorithm in the Netflix Prize challenge achieved an RMSE of approximately 0.85. 
 
 
