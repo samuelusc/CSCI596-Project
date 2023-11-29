@@ -116,9 +116,9 @@ A movie matrix is assembled based on collected data. Each column of the matrix r
 - Item matrix： Y = (y1, y2, y3…, ym)
 
 **`Expected Outcomes`**:
-- Personalized Picks: Suggesting 5 movies tailored to individual user preferences.
-- Related Discoveries: Presenting 5 related movies based on user input, using advanced filtering methods.
-- Trending Now: Showcasing the top 5 trending movies to keep users engaged with popular content.
+- **Personalized** Picks: Suggesting 5 movies tailored to individual user preferences.
+- **Related Discoveries**: Presenting 5 related movies based on user input, using advanced filtering methods.
+- **Trending Now**: Showcasing the top 5 trending movies to keep users engaged with popular content.
 
 
 **`Part of Output Test`**
