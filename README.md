@@ -41,7 +41,7 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 
 - [Recommender Module](#Recommender)
 - [Frontend Module](#Frontend)
-- [backend Module](#Backend)
+- [Backend Module](#Backend)
 - [Databese Module](#Databases)
 
 ## Recommender
