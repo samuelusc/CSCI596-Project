@@ -14,7 +14,7 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 - **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS <br>
 - **Backend**: Python,Node.js with Express.js, JAVA <br>
 - **Database**:MongoDB, JSON Format <br>
-- **Machine Learning**: Python(Scikit-learn), DeepFM <br>
+- **Machine Learning**: Python(Scikit-learn, scikit-learn), DeepFM <br>
 - **Distributed Computing Frame**:  Apache Spark <br>
   
 ## Contributing and Team Member
@@ -115,7 +115,13 @@ A movie matrix is assembled based on collected data. Each column of the matrix r
 - User Matrix： X = (x1, x2, x3…, xn)
 - Item matrix： Y = (y1, y2, y3…, ym)
 
-**`Output Test`**
+**`Expected Outcomes`**:
+- Personalized Picks: Suggesting 5 movies tailored to individual user preferences.
+- Related Discoveries: Presenting 5 related movies based on user input, using advanced filtering methods.
+- Trending Now: Showcasing the top 5 trending movies to keep users engaged with popular content.
+
+
+**`Part of Output Test`**
 The interactive interfaces are used for user to input any movies for recommendation. The fuzzywuzzy module is used to map user input to one of the movies in MovieMat, and then the interactive interface shows the recommended movies. A sample input/output result is shown as below.
 
 <img width="725" alt="Relevance Recommendation" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/result-matrix.png">
