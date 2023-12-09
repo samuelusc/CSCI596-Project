@@ -1,16 +1,7 @@
-const router = require("express").Router();
-const {
-    addReview,
-    updateReview,
-    removeReview,
-    getReviewsByMovie,
-} = require("../controllers/review");
-const { isAuth } = require("../middlewares/auth");
-const { validateRatings, validate } = require("../middlewares/validator");
+const express = require("express");
+const router = express.Router();
+const reviewController = require('../controllers/review');
 
-router.post("/add/:movieId", isAuth, validateRatings, validate, addReview);
-router.patch("/:reviewId", isAuth, validateRatings, validate, updateReview);
-router.delete("/:reviewId", isAuth, removeReview);
-router.get("/get-reviews-by-movie/:movieId", getReviewsByMovie);
+router.get("/get-reviews-by-movie/:movieId", reviewController.getReviewsByMovie);
 
 module.exports = router;

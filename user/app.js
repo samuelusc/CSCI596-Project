@@ -6,7 +6,8 @@ require("dotenv").config();
 require("./db");
 require("express-async-errors");
 const userRouter = require("./routes/user");
-
+const movieRouter = require("./routes/movie"); 
+const reviewRouter = require("./routes/review"); 
 
 
 
@@ -15,6 +16,9 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 app.use('/api/user', userRouter);
+app.use('/api/movie', movieRouter);
+app.use('/api/review', reviewRouter);
+
 
 
 app.use(errorHandler);

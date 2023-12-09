@@ -1,109 +1,48 @@
-const { isValidObjectId } = require("mongoose");
-const Movie = require("../models/movie");
-const Review = require("../models/review");
-const { sendError } = require("../utils/helper");
+const neo4j = require('neo4j-driver');
 
-exports.addReview = async (req, res) => {
-  const { movieId } = req.params;
-  const { content, rating } = req.body;
-  const userId = req.user._id;
+// Create a Neo4j driver instance
+const driver = neo4j.driver(
+    'bolt://localhost:7687',
+    neo4j.auth.basic('neo4j', '12345678')
+);
 
-  if (!isValidObjectId(movieId)) return sendError(res, "Invalid Movie!");
+async function getReviewsByMovieFromNeo4j(movieId) {
+    const session = driver.session();
 
-  const movie = await Movie.findOne({ _id: movieId, status: "public" });
-  if (!movie) return sendError(res, "Movie not found!", 404);
+    try {
+        const result = await session.run(`
+            MATCH (m:Movie)<-[r:RATED]-(:User)
+            WHERE id(m) = toInteger($movieId)
+            RETURN m.title AS Movie, AVG(r.grading) AS AvgRating
+        `, { movieId });
 
-  const isAlreadyReviewed = await Review.findOne({
-    owner: userId,
-    parentMovie: movie._id,
-  });
-  if (isAlreadyReviewed)
-    return sendError(res, "Invalid request, review is already their!");
+        const records = result.records.map(record => record.toObject());
 
-  // create and update review.
-  const newReview = new Review({
-    owner: userId,
-    parentMovie: movie._id,
-    content,
-    rating,
-  });
+        if (records.length === 0) {
+            return -1; // Return -1 if there are no reviews for the movie
+        }
 
-  // updating review for movie.
-  movie.reviews.push(newReview._id);
-  await movie.save();
+        return records;
+    } finally {
+        await session.close();
+    }
+}
 
-  // saving new review
-  await newReview.save();
+async function getReviewsByMovie(req, res) {
+    const { movieId } = req.params;
 
-  res.json({ message: "Your review has been added." });
+    // Call the function to get reviews for the specified movieId
+    const reviews = await getReviewsByMovieFromNeo4j(movieId);
+
+    if (reviews === -1) {
+        return res.json({ message: "No reviews found for the specified movieId.", data: -1 });
+    }
+
+    res.json({ message: "Reviews retrieved successfully.", data: reviews });
+}
+
+module.exports = {
+    getReviewsByMovie,
+    // Add more functions as needed
 };
 
-exports.updateReview = async (req, res) => {
-  const { reviewId } = req.params;
-  const { content, rating } = req.body;
-  const userId = req.user._id;
-
-  if (!isValidObjectId(reviewId)) return sendError(res, "Invalid Review ID!");
-
-  const review = await Review.findOne({ owner: userId, _id: reviewId });
-  if (!review) return sendError(res, "Review not found!", 404);
-
-  review.content = content;
-  review.rating = rating;
-
-  await review.save();
-
-  res.json({ message: "Your review has been updated." });
-};
-
-exports.removeReview = async (req, res) => {
-  const { reviewId } = req.params;
-  const userId = req.user._id;
-
-  if (!isValidObjectId(reviewId)) return sendError(res, "Invalid review ID!");
-
-  const review = await Review.findOne({ owner: userId, _id: reviewId });
-  if (!review) return sendError(res, "Invalid request, review not found!");
-
-  const movie = await Movie.findById(review.parentMovie).select("reviews");
-  movie.reviews = movie.reviews.filter((rId) => rId.toString() !== reviewId);
-
-  await Review.findByIdAndDelete(reviewId);
-
-  await movie.save();
-
-  res.json({ message: "Review removed successfully." });
-};
-
-exports.getReviewsByMovie = async (req, res) => {
-  const { movieId } = req.params;
-
-  if (!isValidObjectId(movieId)) return sendError(res, "Invalid movie ID!");
-
-  const movie = await Movie.findById(movieId)
-    .populate({
-      path: "reviews",
-      populate: {
-        path: "owner",
-        select: "name",
-      },
-    })
-    .select("reviews");
-
-  const reviews = movie.reviews.map((r) => {
-    const { owner, content, rating, _id: reviewID } = r;
-    const { name, _id: ownerId } = owner;
-
-    return {
-      id: reviewID,
-      owner: {
-        id: ownerId,
-        name,
-      },
-      content,
-      rating,
-    };
-  });
-
-  res.json({ reviews });
-};
