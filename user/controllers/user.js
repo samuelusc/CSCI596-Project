@@ -12,7 +12,11 @@ exports.create = async(req, res) => {
 
     const oldUser = await User.findOne({ email });
     if(oldUser) return sendError(res, "This email is already in use!");
-    const newUser = new User({name, email, password});
+    
+    const movieRating = new Map([])
+    //TODO:收到前段请求后，添加入list（，movie：rating）
+    // 判断这个map 的大小，如果大小等于3， 就存入另一个数据库
+    const newUser = new User({name, email, password,movieRating});
     await newUser.save();
 
     let OTP = generateOTP();
@@ -217,4 +221,27 @@ exports.signIn = async (req, res,) => {
     res.json({
         user: { id: _id, name, email, token: jwtToken, },
     });
+};
+
+exports.updateUserMovieRatings = async (req, res) => {
+    const { userId } = req.params;
+    const { movie, rating } = req.body;
+
+    try {
+        const user = await User.findOne({ userId });
+
+        if (!user) {
+            return sendError(res, "User not found!", 404);
+        }
+
+        // Update the user's movie ratings
+        user.movieRating.set(movie, rating);
+        await user.save();
+
+        res.json({
+            message: `Movie rating for ${movie} updated successfully.`,
+        });
+    } catch (error) {
+        sendError(res, "Error updating movie rating.", 500);
+    }
 };

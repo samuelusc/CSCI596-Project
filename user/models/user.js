@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
-
+const { Integer } = require("neo4j-driver");
+const uuid = require('node-uuid')
 const userSchema = mongoose.Schema({
     name: {
         type: String,
@@ -22,6 +23,14 @@ const userSchema = mongoose.Schema({
         required: true,
         default: false,
     },
+    userId: {
+        type: String,
+        unique: true,
+        default: uuid.v1()
+    },
+    movieRating: {
+        type: Map,
+    }
 });
 
 userSchema.pre("save", async function(next) {

@@ -44,5 +44,5 @@ async function getReviewsByMovie(req, res) {
 module.exports = {
     getReviewsByMovie,
     // Add more functions as needed
-};
+}; 
 
