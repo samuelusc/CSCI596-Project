@@ -5,7 +5,12 @@ const PasswordResetToken = require('../models/passwordResetToken');
 const { isValidObjectId } = require("mongoose");
 const { generateOTP, generateMailTransporter } = require("../utils/mail");
 const { sendError, generateRandomByte} = require("../utils/helper");
+const neo4j = require('neo4j-driver');
 
+const driver = neo4j.driver(
+    'bolt://localhost:7687',
+    neo4j.auth.basic('neo4j', '12345678')
+);
 
 exports.create = async(req, res) => {
     const {name, email, password} = req.body;
@@ -14,8 +19,7 @@ exports.create = async(req, res) => {
     if(oldUser) return sendError(res, "This email is already in use!");
     
     const movieRating = new Map([])
-    //TODO:收到前段请求后，添加入list（，movie：rating）
-    // 判断这个map 的大小，如果大小等于3， 就存入另一个数据库
+  
     const newUser = new User({name, email, password,movieRating});
     await newUser.save();
 
@@ -223,7 +227,43 @@ exports.signIn = async (req, res,) => {
     });
 };
 
+// Function to save user data to Neo4j
+async function saveUserDataToNeo4j(userId, movieRating) {
+
+
+    const session = driver.session();
+
+    try {
+        // Neo4j query to create/update user and movie nodes
+        const result = await session.run(`
+            MERGE (u:User {id: $userId})
+
+            WITH u, $movieTitles AS movieTitles, $ratings AS ratings
+            UNWIND range(0, size(movieTitles) - 1) AS i
+            MERGE (m:Movie {title: movieTitles[i]})
+            MERGE (u)-[r:RATED]->(m)
+            SET r.grading = ratings[i]
+
+            RETURN u, ID(u) AS identity, labels(u) AS labels, properties(u) AS properties
+        `, {
+            userId,
+            movieTitles: Array.from(movieRating.keys()),
+            ratings: Array.from(movieRating.values())
+        });
+
+        console.log(result);
+
+        return result; 
+    } catch (error) {
+        console.error("Neo4j query error:", error);
+    } finally {
+        await session.close();
+    }
+}
+
+// Function to update user movie ratings
 exports.updateUserMovieRatings = async (req, res) => {
+
     const { userId } = req.params;
     const { movie, rating } = req.body;
 
@@ -238,10 +278,16 @@ exports.updateUserMovieRatings = async (req, res) => {
         user.movieRating.set(movie, rating);
         await user.save();
 
+        // Check if there are 3 or more key-value pairs in the map
+        if (user.movieRating.size >= 3) {
+            // Call the function to save user data to Neo4j
+            await saveUserDataToNeo4j(userId, user.movieRating);
+        }
+
         res.json({
             message: `Movie rating for ${movie} updated successfully.`,
         });
     } catch (error) {
         sendError(res, "Error updating movie rating.", 500);
     }
-};
+}; 
