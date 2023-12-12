@@ -142,7 +142,7 @@ export default function SingleMovie() {
           {genres}
           </p>
           </ListWithLabel>
-          <RelatedMovies movieId={"The Sixth Sense"} />
+          <RelatedMovies movieId={title} />
         </div>
       </Container>
       <AddRatingModal
