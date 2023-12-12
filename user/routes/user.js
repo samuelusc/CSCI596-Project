@@ -22,7 +22,8 @@ router.post("/resend-email-verification-token", resendEmailVerificationToken);
 router.post("/forget-password", forgetPassword);
 router.post('/verify-pass-reset-token', isValidPassResetToken, sendResetPasswordTokenStatus);
 router.post('/reset-password', validatePassword, validate, isValidPassResetToken, resetPassword);
-router.post("/update-movie-ratings/:userId", updateUserMovieRatings);
+// router.post("/update-movie-ratings/:userId", updateUserMovieRatings);
+router.post("/update-movie-ratings", isAuth, updateUserMovieRatings);
 
 router.get("/is-auth", isAuth, (req, res) => {
     const { user } = req;

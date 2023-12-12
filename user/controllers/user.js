@@ -263,10 +263,10 @@ async function saveUserDataToNeo4j(userId, movieRating) {
 
 // Function to update user movie ratings
 exports.updateUserMovieRatings = async (req, res) => {
+    const userId = req.user.userId; 
+    console.log(userId)
 
-    const { userId } = req.params;
     const { movie, rating } = req.body;
-
     try {
         const user = await User.findOne({ userId });
 

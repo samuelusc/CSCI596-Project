@@ -17,6 +17,7 @@ router.get('/related/:movieTitle', movieController.getRelatedMovies);
 
 router.get('/search-public', movieController.searchPublicMovies);
 
-router.get('/recommended-movies/:userId', isAuth, movieController.getRecommendedMovies);
+// router.get('/recommended-movies/:userId', isAuth, movieController.getRecommendedMovies);
+router.get('/recommended-movies', isAuth, movieController.getRecommendedMovies);
 
 module.exports = router; 
