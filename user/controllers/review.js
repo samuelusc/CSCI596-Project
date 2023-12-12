@@ -11,13 +11,14 @@ async function getReviewsByMovieFromNeo4j(movieId) {
 
     try {
         const result = await session.run(`
-            MATCH (m:Movie)<-[r:RATED]-(:User)
-            WHERE id(m) = toInteger($movieId)
-            RETURN m.title AS Movie, AVG(r.grading) AS AvgRating
+        MATCH (m:Movie)<-[r:RATED]-(:User)
+        WHERE m.title = $movieId
+        RETURN m.title AS Movie, AVG(r.grading) AS AvgRating
         `, { movieId });
-
+     
+        console.log(result)
         const records = result.records.map(record => record.toObject());
-
+        console.log(records)
         if (records.length === 0) {
             return -1; // Return -1 if there are no reviews for the movie
         }
