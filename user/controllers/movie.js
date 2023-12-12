@@ -113,9 +113,80 @@ async function searchPublicMovies(req, res) {
     res.json(publicMovies);
 }
 
+async function getRecommendedMoviesForUser(userId) {
+    const session = driver.session();
+
+    try {
+        const result = await session.run(`
+            MATCH (u1:User {id: $userId})-[r1:RATED]-(m:Movie)-[r2:RATED]-(u2:User)
+            WITH
+                u1, u2,
+                COUNT(m) AS movies_common,
+                SUM(r1.grading * r2.grading)/(SQRT(SUM(r1.grading^2)) * SQRT(SUM(r2.grading^2))) AS sim
+            WHERE movies_common >= 1 AND sim > 0.7
+            MERGE (u1)-[s:SIMILARITY]-(u2)
+            SET s.sim = sim
+            
+            WITH u1, u2, sim
+            ORDER BY sim DESC
+            LIMIT 50
+            
+            MATCH (m:Movie)-[r:RATED]-(u2)
+            WHERE NOT((m)-[:RATED]-(u1))
+            WITH m.title AS title, AVG(r.grading) AS avgRating, COUNT(u2) AS num, sim
+            WHERE num >= 2
+            WITH title, avgRating, num, sim
+            ORDER BY num DESC
+            RETURN COLLECT({ Movie: title, AvgRating: avgRating }) AS recommendedMovies, sim
+            LIMIT 5;
+        `, { userId });
+
+
+        // Extract recommended movies from the result
+        const recommendedMovies = result.records.map(record => {
+            const recommendedMoviesArray = record.get('recommendedMovies');
+        
+            // Log the content of recommendedMoviesArray
+            console.log('recommendedMoviesArray:', recommendedMoviesArray);
+        
+            // Extract 'Movie' and 'AvgRating' from each object in the array
+            const movies = recommendedMoviesArray.map(movie => ({
+                Movie: movie.Movie,
+                AvgRating: movie.AvgRating,
+            }));
+        
+            return {
+                recommendedMovies: movies,
+            };
+        });
+
+        return recommendedMovies;
+    } finally {
+        await session.close();
+    }
+}
+
+// New Express route to get recommended movies for a user
+async function getRecommendedMovies(req, res) {
+    const userId = req.user.userId; 
+    console.log(userId)
+
+    try {
+        // Call the function to get recommended movies for the user
+        const recommendedMovies = await getRecommendedMoviesForUser(userId);
+
+        res.json(recommendedMovies);
+    } catch (error) {
+        // Handle errors appropriately
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+}
+
 
 module.exports = {
     getTopMovies,
     getRelatedMovies,
     searchPublicMovies,
+    getRecommendedMovies,
 };

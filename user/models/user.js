@@ -26,7 +26,7 @@ const userSchema = mongoose.Schema({
     userId: {
         type: String,
         unique: true,
-        default: uuid.v1()
+        default: uuid.v1,
     },
     movieRating: {
         type: Map,

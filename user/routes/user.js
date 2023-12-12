@@ -23,9 +23,10 @@ router.post("/forget-password", forgetPassword);
 router.post('/verify-pass-reset-token', isValidPassResetToken, sendResetPasswordTokenStatus);
 router.post('/reset-password', validatePassword, validate, isValidPassResetToken, resetPassword);
 router.post("/update-movie-ratings/:userId", updateUserMovieRatings);
+
 router.get("/is-auth", isAuth, (req, res) => {
     const { user } = req;
-    res.json({ user: { id: user._id, name: user.name, email: user.email } });
+    res.json({ user: { id: user._id, name: user.name, email: user.email, userId: user.userId } });
 });
 
 module.exports = router;
