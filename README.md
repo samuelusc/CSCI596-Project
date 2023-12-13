@@ -143,7 +143,7 @@ A movie matrix is assembled based on collected data. Each column of the matrix r
 - User Matrix： X = (x1, x2, x3…, xn)
 - Item matrix： Y = (y1, y2, y3…, ym)
 
-**`Expected Outcomes`**:
+**`Evaluation Metrics `**:
 
 - **Personalized Picks**: Suggesting 5 movies tailored to individual user preferences.
 - **Related Discoveries**: Presenting 4 related movies based on user input, using advanced filtering methods.
@@ -163,13 +163,13 @@ The interactive interfaces are used for user to input any movies for recommendat
 
 ### Latest Demo
 
-**Create New User 999111**
+`Create New User 999111`
 ![Graph_recommender_demo1](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-1.jpg)<br>
 
-**Cold Star For New User**
+`Cold Star For New User`
 ![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-2.jpg)<br>
 
-**Graph Representation For User 999111**
+`Graph Representation For User 999111`
 ![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/user-similarity.jpg)
 
 ## Frontend
@@ -280,13 +280,13 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
 ```
 ### Database presentation
 
-**Present graph database**
+`Present graph database`
 ![graph_database_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-1.jpg)<br>
 
-**Present relationship network by movie keywords**
+`Present relationship network by movie keywords`
 ![graph_database_keyword_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-keywords.jpg)<br>
 
-**Present relationship network by movie productors**
+`Present relationship network by movie productors`
 ![graph_database_productor](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-productor.jpg)<br>
 
 
