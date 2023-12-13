@@ -15,15 +15,16 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 The Movie Database (TMDB), a popular, user-editable database for movies and TV shows.It includes a wide range of data such as titles, genres, release dates, budgets, revenues, production companies, countries, vote counts, and average vote scores.<br>
 
 ## Modules and Contributors
-**`Note`**: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.<br>
+
 We divided the project into four modules: 
 - [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module)
 - [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module)
 - [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
 - [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
 
-
 Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
+<br>
+**`Note`**: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.<br>
 
 ## Language and tools Used:
 
