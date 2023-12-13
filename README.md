@@ -38,7 +38,9 @@ Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guo
 
 ## Product develpment feature map
 <br>
-<img width="725" alt="Product Development Feature Map" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/Web-Features.png">
+<img width="725" alt="Product Development Feature Map" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/web-productFeatures-graphDatabase.jpg">
+<br>
+`*Evaluation Metrics`: Evaluation Matrix: Temporarily used in the previous version, the evaluation matrix will be integrated into the latest version in the future. 
 
 **`Table of Four modules`**
 
