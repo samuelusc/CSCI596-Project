@@ -96,7 +96,8 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 
 ### Possible Tech Stacks
 
-`Latest Version`<br>
+`Latest Version`:<br>
+
 **`Pandas`**: For data handling and analysis.
 
 **`Neo4j Database`**: Using Neo4j, a advanced graph database, to store and manage data. 
@@ -112,7 +113,8 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 **`Collaborative Filtering for Recommendations`**: a user behavior-based collaborative filtering recommendation system, specifically for movie recommendations. This system identifies movies to recommend by analyzing user ratings, finding users with similar movie rating habits, and basing suggestions on the preferences of these similar users.
 
 ***
-`Old Version`<br>
+`Old Version`:<br>
+
 **`Scikit-surprise or scikit-learn`**:
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
 
