@@ -162,13 +162,13 @@ The interactive interfaces are used for user to input any movies for recommendat
 - **`Recall`**: True Positive / (True Positive + False Negative) <br>
 
 ### Latest Demo
-<br>
+
 `Create New User 999111`
 ![Graph_recommender_demo1](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-1.jpg)<br>
-<br>
+
 `Cold Star For New User`
 ![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-2.jpg)<br>
-<br>
+
 `Graph Representation For User 999111`
 ![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/user-similarity.jpg)
 
