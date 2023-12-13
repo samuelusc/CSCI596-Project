@@ -1,4 +1,4 @@
-# CSCI596-Project-Recommending System V2
+# CSCI596-Project：Graph Recommending Module
 
 For the reommending system, the dataset can be download from:
 
