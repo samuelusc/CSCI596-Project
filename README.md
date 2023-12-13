@@ -155,13 +155,16 @@ The interactive interfaces are used for user to input any movies for recommendat
 <img width="725" alt="Relevance Recommendation" src="https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/result-matrix.png">
 
 ### Evaluation metrics:
-
+`Old Version`
 - **`MSE`**:  The average squared difference between the predicted and actual values.
 - **`RMSE`**: Taking the square root of the mean squared error (MSE).
 - **`Precision`** :  True Positive / (True Positive + False Positive)
 - **`Recall`**: True Positive / (True Positive + False Negative) <br>
 
-**Expected value**: Our goal is to achieve an RMSE value between `0.5 to 0.85`, aiming to surpass industry benchmarks. Notably, the best-performing algorithm in the Netflix Prize challenge achieved an RMSE of approximately `0.85`.
+### Latest Demo
+![Graph_recommender_demo1](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-1.jpg)
+![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-2.jpg)
+![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/user-similarity.jpg)
 
 ## Frontend
 
@@ -232,11 +235,12 @@ Get Search Engine Results:
 Get List of Movie Recommendation for a User:
 
 <img width="942" alt="Screenshot 2023-12-12 at 7 45 21 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/5cc3eb39-77c4-4697-b762-f61e05be2f20">
-## Databases
+
 
 ### Database used
 
-MongoDB
+- MongoDB
+- Neo4j Graph Database
 
 ### Things Stored in Database
 
@@ -244,7 +248,7 @@ MongoDB
 * Movie reviews
 * Pre-trained result for movie recommendation
 
-### Movie Detail API:
+### Movie Detail API
 
 Request movie details (movie title, movie overview, movie poster, etc.) from [TMDB](https://www.themoviedb.org/).
 
@@ -268,6 +272,12 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
   vote_count: 0
 }
 ```
+#### Database presentation
+![graph_database_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-1.jpg)<br>
+![graph_database_keyword_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-keywords.jpg)<br>
+![graph_database_productor](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-productor.jpg)<br>
+
+
 ## Final Demo:
 ### Home page
 ![Home_wo_login](https://github.com/samuelusc/CSCI596-Project/assets/142550022/35aad9bf-f5d9-4bef-8a6b-39e982c80c88)
