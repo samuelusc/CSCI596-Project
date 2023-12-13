@@ -192,11 +192,13 @@ Tech Stacks:
 - Node.js
 - Express.js
 
-Testing with Postman—Create User:
+Testing with Postman
+
+Create User:
 
 <img width="725" alt="Screenshot 2023-11-23 at 5 18 41 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/bfc37821-83e4-44ca-b4b7-eaa1d96a9624">
 
-Testing with Mailtrap—Email Verification:
+Mailtrap—Email Verification:
 
 <img width="540" alt="Screenshot 2023-11-23 at 5 19 16 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/0de568a2-119a-4507-b0ba-c0860f9c2921">
 
@@ -204,10 +206,29 @@ Get User ID from MongoDB:
 
 <img width="583" alt="Screenshot 2023-11-23 at 5 20 15 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/8add2058-08c6-4f64-ab83-a79ceb5e02ed">
 
-Testing with Postman—Verify Email:
+Email Verification:
 
 <img width="638" alt="Screenshot 2023-11-23 at 5 20 26 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/762c6774-31d8-4cec-a55d-645ba8831f9d">
 
+Get List of Top Rated Movies:
+
+<img width="953" alt="Screenshot 2023-12-12 at 7 44 20 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/d060fba9-b77c-4047-9e11-bc16ed767fb9">
+
+Get List of Related Movies based on a Movie Title:
+
+<img width="956" alt="Screenshot 2023-12-12 at 7 44 42 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/3a40d78d-e8cc-4434-8fe3-fde457805cf6">
+
+Get Movie Rating:
+
+<img width="887" alt="Screenshot 2023-12-12 at 7 44 53 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/44de1d47-2d5b-4e56-806e-10fd3fd257c9">
+
+Get Search Engine Results:
+
+<img width="948" alt="Screenshot 2023-12-12 at 7 45 09 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/a74a7b0a-9940-4a88-8e75-088290ce4a6c">
+
+Get List of Movie Recommendation for a User:
+
+<img width="942" alt="Screenshot 2023-12-12 at 7 45 21 PM" src="https://github.com/samuelusc/CSCI596-Project/assets/35712263/5cc3eb39-77c4-4697-b762-f61e05be2f20">
 ## Databases
 
 ### Database used
