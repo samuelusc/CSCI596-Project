@@ -24,7 +24,6 @@ We divided the project into four modules:
 
 **`Note`**: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.<br>
 
-<br>
 **Team members**: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
 
 ## Language and tools Used:
