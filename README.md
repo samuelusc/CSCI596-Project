@@ -48,8 +48,8 @@ Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guo
 - [Databese Module](#Databases)
 
 ## Recommender
-- `Latest Version`: **[Neo4j Advanced Knwoledge Graph]** (https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system) <br>
-- `Old Version`: **[Scikit-surprise]**(https://github.com/samuelusc/CSCI596-Project/tree/2.0)
+- `Latest Version`: [Neo4j Advanced Knwoledge Graph](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system) <br>
+- `Old Version`: [Scikit-surprise](https://github.com/samuelusc/CSCI596-Project/tree/2.0)
 
 ### Design Objects
 
