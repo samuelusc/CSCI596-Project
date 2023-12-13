@@ -45,6 +45,8 @@ Recommendation System: Samuel Wang, Zoey Zhang <br>
 - [Databese Module](#Databases)
 
 ## Recommender
+** Neo4j Advanced Knwoledge Graph **
+** Scikit-surprise **
 
 ### Design Objects
 
