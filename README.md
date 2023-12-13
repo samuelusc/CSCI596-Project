@@ -1,6 +1,6 @@
 # Movie Recommendation System: 
 
-### — Web App with Advanced Computing Method
+### — Web App with Advanced Graph and Computing Method
 
 ## Introduction
 
