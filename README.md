@@ -95,7 +95,8 @@ Movies are categorized using tags such as genre, mood, director, or actors, enab
 Displaying other users' ratings and reviews helps new users discover popular movies.
 
 ### Possible Tech Stacks
-`Latest Version`
+
+`Latest Version`<br>
 **`Pandas`**: For data handling and analysis.
 
 **`Neo4j Database`**: Using Neo4j, a advanced graph database, to store and manage data. 
@@ -111,15 +112,12 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 **`Collaborative Filtering for Recommendations`**: a user behavior-based collaborative filtering recommendation system, specifically for movie recommendations. This system identifies movies to recommend by analyzing user ratings, finding users with similar movie rating habits, and basing suggestions on the preferences of these similar users.
 
 ***
-`Old Version`
+`Old Version`<br>
 **`Scikit-surprise or scikit-learn`**:
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
 
 **`SVD (Singular Value Decomposition / matrix factorization )`**:
 It’s a powerful matrix factorization technique used for collaborative filtering. This algorithm identifies latent features by decomposing the user-item rating matrix.
-
-**`Similarity Calculation`**:
-Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. The movies are represented as vectors of pre-collected user review ratings. For each movie the correlation coefficients of the rating vector with vectors of other movies are collected and sorted. The recommneded movies are selected per largest correlation coefficients.
 
 
 ### Movie Recommendation System Flowchart:
