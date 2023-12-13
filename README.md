@@ -96,6 +96,22 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 
 ### Possible Tech Stacks
 
+**`Pandas`**: For data handling and analysis.
+
+**`Neo4j Database`**: Using Neo4j, a advanced graph database, to store and manage data. 
+
+**`Dynamic Query Building`**: The script dynamically constructs Cypher queries based on user input, such as filtering movies by genre or calculating similarity.
+
+**`Cold Start Problem Handling`**: The user interacts with the system through the command line, inputting data and receiving recommendations.
+
+**`Fuzzy Matching for Movie Titles`**: To handle partial or imprecise movie title inputs, the script employs a fuzzy matching technique. 
+
+**`Cosine Similarity for User Similarity`**: The code calculates similarity scores between users using cosine similarity, a common technique in recommendation systems.
+
+**`Collaborative Filtering for Recommendations`**: The recommendation logic in the script seems to be based on collaborative filtering. This method makes automatic predictions about the interests of a user by collecting preferences from many users.
+
+---
+
 **`Scikit-surprise or scikit-learn`**:
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
 
@@ -105,17 +121,6 @@ It’s a powerful matrix factorization technique used for collaborative filterin
 **`Similarity Calculation`**:
 Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. The movies are represented as vectors of pre-collected user review ratings. For each movie the correlation coefficients of the rating vector with vectors of other movies are collected and sorted. The recommneded movies are selected per largest correlation coefficients.
 
-**`DeepFM`** :
-DNN (Deep Neural Networks) is a nonlinear model capable of capturing more complex relationships. FM (Factorization Machines) is a linear model that models implicit relationships between users and items through feature crossing.
-
-**`Apache Spark`**:
-For data processing and model training, Apache Spark can efficiently handle large datasets with its distributed computing capabilities, and using Spark's machine learning library (MLib) to build and train recommendation models.
-
-**`Fuzzywuzzy`**:
-Used for text matching and similarity calculations.
-
-**`Pandas`**:
-For data handling and analysis.
 
 ### Movie Recommendation System Flowchart:
 
