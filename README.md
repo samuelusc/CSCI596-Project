@@ -15,12 +15,13 @@ The Netflix Prize dataset was a famous dataset released by Netflix for a competi
 The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
 
 ## Modules and Contributors
-
+### Note: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.
 We divided the project into four modules: 
 - [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module)
 - [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module)
 - [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
 - [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
+
 
 Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
 
@@ -35,6 +36,34 @@ Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guo
 
 - [Final project description](https://github.com/samuelusc/CSCI596-Project/blob/main/Final.pdf)
 - [Neo4j Graph Database](https://neo4j.com)
+
+## How to run our codes
+### Installation
+Python, [Node.js](https://nodejs.org/en), [mongoDB](https://www.mongodb.com/try/download/community), [Neo4j Graph Database](https://neo4j.com/download/)
+### Database preparation
+```bash
+- Create a new DBMS and modify recommender_graph.py in backend-module with your own credentials
+- Copy all the .csv files in backend-module and paste them into the 'import' folder of the DBMS 
+- Execute recommender_graph.py to load data to graph database
+```  
+
+### Backend 
+```bash
+git clone https://github.com/samuelusc/CSCI596-Project.git
+git checkout backend-module
+cd user
+npm install
+node app.js
+```
+
+### Frontend
+```bash
+git clone https://github.com/samuelusc/CSCI596-Project.git
+git checkout frontend-module
+npm install
+npm start
+```
+Note: There could be some exceptions for certain movies since the API we used might not provide all the movie info in our database.
 
 ## Product develpment feature map
 <br>
@@ -291,8 +320,7 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
 `Show the relationship network by movie productors`
 ![graph_database_productor](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-productor.jpg)<br>
 
-
-## Final Demo:
+## Final Demo
 ### Home page
 ![Home_wo_login](https://github.com/samuelusc/CSCI596-Project/assets/142550022/35aad9bf-f5d9-4bef-8a6b-39e982c80c88)
 ### Sign up
