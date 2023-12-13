@@ -17,10 +17,10 @@ The MovieLens Dataset is a collection of movie ratings provided by the GroupLens
 ## Modules and Contributors
 
 We divided the project into four modules: 
--- [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module) 
--- [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module) 
--- [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
--- [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
+- [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module) 
+- [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module)
+- [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
+- [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
 
 Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
 
@@ -162,8 +162,11 @@ The interactive interfaces are used for user to input any movies for recommendat
 - **`Recall`**: True Positive / (True Positive + False Negative) <br>
 
 ### Latest Demo
-![Graph_recommender_demo1](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-1.jpg)
-![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-2.jpg)
+**Create New User 999111**
+![Graph_recommender_demo1](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-1.jpg)<br>
+**Cold Star For New User**
+![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-recommender-2.jpg)<br>
+**Graph Representation For User 999111**
 ![Graph_recommender_demo2](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/user-similarity.jpg)
 
 ## Frontend
@@ -272,9 +275,12 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
   vote_count: 0
 }
 ```
-#### Database presentation
+### Database presentation
+**Present graph database**
 ![graph_database_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-1.jpg)<br>
+**Present relationship network by movie keywords**
 ![graph_database_keyword_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-keywords.jpg)<br>
+**Present relationship network by movie productors**
 ![graph_database_productor](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-productor.jpg)<br>
 
 
