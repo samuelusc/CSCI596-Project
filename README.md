@@ -28,7 +28,7 @@ Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guo
 
 - **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS <br>
 - **Backend**: Python,Node.js with Express.js <br>
-- **Database**:MongoDB, Graph Database, JSON Format <br>
+- **Database**:MongoDB, Neo4j Graph Database, JSON Format <br>
 - **Rcomendation System**: Neo4j Advanced Knowledge Graph, Collaborative Filtering, Cosine Similarity, Fuzzy Matching,  Scikit-learn(Old version)<br>
 
 👉🏽 For this project, we will be using:
