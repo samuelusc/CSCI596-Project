@@ -34,7 +34,7 @@ Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guo
 👉🏽 For this project, we will be using:
 
 - [Final project description](https://github.com/samuelusc/CSCI596-Project/blob/main/Final.pdf)
-- [Google Document](https://docs.google.com/document/d/1RiSPeehtdKsfRRoqi4PO4-cUTPvHlyLx88id9U7Svas)
+- [Neo4j Graph Database](https://neo4j.com)
 
 ## Product develpment feature map
 <br>
