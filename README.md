@@ -22,7 +22,7 @@ We divided the project into four modules:
 - [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
 - [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
 
-**`Note`**: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.<br>
+**Note**: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, `there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes`.<br>
 
 **Team members**: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
 
