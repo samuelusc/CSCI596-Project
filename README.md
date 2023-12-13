@@ -16,11 +16,7 @@ The MovieLens Dataset is a collection of movie ratings provided by the GroupLens
 
 ## Modules and Contributors
 
-We divided the project into four modules: 
-- [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module) 
-- [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module)
-- [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
-- [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
+We divided the project into four modules: [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module), [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module), [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module), [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
 
 Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
 
