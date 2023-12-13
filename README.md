@@ -11,8 +11,8 @@ The primary goal is to develop a robust Movie Recommendation System that provide
 [Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
 The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system. <br>
 
-[MovieLens 20M Dataset](https://msnews.github.io/): <br>
-The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
+[TMDB 5000 Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata): <br>
+The "TMDB 5000" dataset refers to a collection of data from The Movie Database (TMDB), a popular, user-editable database for movies and TV shows.It includes a wide range of data such as titles, genres, release dates, budgets, revenues, production companies, countries, vote counts, and average vote scores.<br>
 
 ## Modules and Contributors
 ### Note: Considering this is a comprehensive project including frontend, backend and recommendation module, we created four different branches, each of which contains the related code. Thus, there is no code in main branch and please click on the links below to go to the corresponding branch and review the codes.
