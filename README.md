@@ -95,23 +95,23 @@ Movies are categorized using tags such as genre, mood, director, or actors, enab
 Displaying other users' ratings and reviews helps new users discover popular movies.
 
 ### Possible Tech Stacks
-
+`Latest Version`
 **`Pandas`**: For data handling and analysis.
 
 **`Neo4j Database`**: Using Neo4j, a advanced graph database, to store and manage data. 
 
-**`Dynamic Query Building`**: The script dynamically constructs Cypher queries based on user input, such as filtering movies by genre or calculating similarity.
+**`Dynamic Query Building`**: Constructs Cypher queries based on user input, such as filtering movies by genre or calculating similarity.
 
 **`Cold Start Problem Handling`**: The user interacts with the system through the command line, inputting data and receiving recommendations.
 
 **`Fuzzy Matching for Movie Titles`**: To handle partial or imprecise movie title inputs, the script employs a fuzzy matching technique. 
 
-**`Cosine Similarity for User Similarity`**: The code calculates similarity scores between users using cosine similarity, a common technique in recommendation systems.
+**`Cosine Similarity for User Similarity`**: Using Pearson Correlation Coefficient. The Pearson correlation coefficient is used to calculate the similarity between different movies. The movies are represented as vectors of pre-collected user review ratings. For each movie the correlation coefficients of the rating vector with vectors of other movies are collected and sorted. The recommneded movies are selected per largest correlation coefficients.
 
-**`Collaborative Filtering for Recommendations`**: The recommendation logic in the script seems to be based on collaborative filtering. This method makes automatic predictions about the interests of a user by collecting preferences from many users.
+**`Collaborative Filtering for Recommendations`**: a user behavior-based collaborative filtering recommendation system, specifically for movie recommendations. This system identifies movies to recommend by analyzing user ratings, finding users with similar movie rating habits, and basing suggestions on the preferences of these similar users.
 
 ***
-
+`Old Version`
 **`Scikit-surprise or scikit-learn`**:
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
 
