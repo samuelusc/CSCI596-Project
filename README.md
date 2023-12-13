@@ -6,27 +6,29 @@
 
 The primary goal is to develop a robust Movie Recommendation System that provides users with personalized movie recommendation based on their previous movie rating and movie reference. The system will consist of a user-friendly frontend for interaction and a powerful backend for processing and generating recommendations.
 
+## Modules and Contributors
+
+We divided the project into four modules: 
+-- [Frontend](https://github.com/samuelusc/CSCI596-Project/tree/frontend-module) 
+-- [Backend](https://github.com/samuelusc/CSCI596-Project/tree/backend-module) 
+-- [Dataset and web API](https://github.com/samuelusc/CSCI596-Project/tree/database-module)
+-- [Recommendation System](https://github.com/samuelusc/CSCI596-Project/tree/graphDB-1.0/recommending%20system)
+
+Team members: Samuel Wang, Shengyi Liu, Rachel Huang, Zoey Zhang, Zitong Li, Guodong Sun
+
 ## Dataset:
+[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
+The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system. <br>
 
 [MovieLens 20M Dataset](https://msnews.github.io/): <br>
 The MovieLens Dataset is a collection of movie ratings provided by the GroupLens Research Project at the University of Minnesota. It's primarily used for research in collaborative filtering, machine learning, and data mining.<br>
-[Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data): <br>
-The Netflix Prize dataset was a famous dataset released by Netflix for a competition to improve the accuracy of their movie recommendation system.
 
 ## Language and tools Used:
 
 - **Frontend**: HTML/CSS/Javascript, React, Tailwind CSS <br>
-- **Backend**: Python,Node.js with Express.js, JAVA <br>
-- **Database**:MongoDB, JSON Format <br>
-- **Machine Learning**: Python(Scikit-learn, scikit-learn), DeepFM <br>
-- **Distributed Computing Frame**:  Apache Spark <br>
-
-## Contributing and Team Member
-
-Frontend: Shenyi Liu <br>
-Backend: Rachel Huang <br>
-Dataset and web crawler: Guodong Sun, Zitong Li <br>
-Recommendation System: Samuel Wang, Zoey Zhang <br>
+- **Backend**: Python,Node.js with Express.js <br>
+- **Database**:MongoDB, Graph Database, JSON Format <br>
+- **Rcomendation System**: Neo4j Advanced Knowledge Graph, Scikit-learn(Old version)<br>
 
 👉🏽 For this project, we will be using:
 
