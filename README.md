@@ -237,3 +237,21 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
   vote_count: 0
 }
 ```
+## Final Demo:
+### Home page
+![Home_wo_login](https://github.com/samuelusc/CSCI596-Project/assets/142550022/35aad9bf-f5d9-4bef-8a6b-39e982c80c88)
+### Sign up
+![Sign_up](https://github.com/samuelusc/CSCI596-Project/assets/142550022/2e319e95-ea8e-4b3c-8c96-a65e41739d29)
+### Search result
+The result after we input "iron man".
+![Search_result](https://github.com/samuelusc/CSCI596-Project/assets/142550022/e519a95c-3183-44f2-ad6e-83f78d7e5b76)
+### Single movie page
+We can see the related movies provided by recommendation system.
+![Single_movie](https://github.com/samuelusc/CSCI596-Project/assets/142550022/91ebecb5-5dd3-415b-a6c9-3b01dbe861dc)
+### Rate movie
+![Rate_movie](https://github.com/samuelusc/CSCI596-Project/assets/142550022/7e1bc7ff-72d8-4dda-a00b-b1bf857d7afb)
+### Recommended movies
+We rated Iron Man 3, Iron Man 2 and The Avengers 5 stars. The recommendation system gave us other related sci-fi movies.
+![Recommendation](https://github.com/samuelusc/CSCI596-Project/assets/142550022/c4a7de56-1552-4b49-8e91-8fa716fabe1f)
+
+
