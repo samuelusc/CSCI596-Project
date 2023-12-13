@@ -110,7 +110,7 @@ Displaying other users' ratings and reviews helps new users discover popular mov
 
 **`Collaborative Filtering for Recommendations`**: The recommendation logic in the script seems to be based on collaborative filtering. This method makes automatic predictions about the interests of a user by collecting preferences from many users.
 
----
+***
 
 **`Scikit-surprise or scikit-learn`**:
 A python scikit we used to build and analyze recommender systems. It provides some efficient collaborative filtering algorithms, including user-based collaborative filtering, item-based collaborative filtering, and matrix factorization algorithms.
