@@ -279,13 +279,13 @@ Request movie details (movie title, movie overview, movie poster, etc.) from [TM
 }
 ```
 ### Database presentation
-<br>
+
 `Present graph database`
 ![graph_database_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-1.jpg)<br>
-<br>
+
 `Present relationship network by movie keywords`
 ![graph_database_keyword_presentation](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-keywords.jpg)<br>
-<br>
+
 `Present relationship network by movie productors`
 ![graph_database_productor](https://github.com/samuelusc/CSCI596-Project/blob/recommender-module/recommending%20system/assets/graph-database-productor.jpg)<br>
 
