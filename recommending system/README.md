@@ -11,12 +11,12 @@ The "TMDB 5000" dataset refers to a collection of data from The Movie Database (
 **Test Instruction**
 To evaluate our recommendation module, follow these steps:
 
-- Download recommender_graph.py and the preprocessed datasets including out_genre.csv, out_grade.csv, out_keyword.csv, out_movies.csv, and out_productor.csv.
-- Install Neo4j following the provided step-by-step installation instructions.
+- Download `recommender_graph.py` and the preprocessed datasets including out_genre.csv, out_grade.csv, out_keyword.csv, out_movies.csv, and out_productor.csv.
+- Install `Neo4j` following the provided step-by-step installation instructions.
 - Launch recommender_graph.py and establish a connection to the Neo4j database to start the testing process.
 
 **Processing Larger Datasets**
 To work with larger datasets:
 
 - Download the datasets from Kaggle and TMDB 5000.
-- Modify the MAX_USER parameter in preGraph.py according to your dataset size requirements to facilitate the processing of an extensive dataset.
+- Modify the MAX_USER parameter in `preGraph.py` according to your dataset size requirements to facilitate the processing of an extensive dataset.
